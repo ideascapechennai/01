@@ -779,7 +779,7 @@
             "showName": true,
             "showBio": true,
             "autoplay": true,
-            "timeout": "1",
+            "timeout": "6",
             "paddingTop": "1",
             "paddingBottom": "0",
             "showBullets": true,
