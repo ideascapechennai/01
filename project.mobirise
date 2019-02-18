@@ -283,8 +283,8 @@
           },
           "_params": {
             "showMeta": true,
-            "paddingTop": "2",
-            "paddingBottom": "0",
+            "paddingTop": "3",
+            "paddingBottom": "2",
             "bgColor": "#efefef"
           },
           "title": "Mechanical CADD Programs",
