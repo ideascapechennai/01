@@ -17,7 +17,7 @@
         "textFont": "Open Sans",
         "isRoundedButtons": false,
         "isAnimatedOnScroll": true,
-        "isScrollToTopButton": false,
+        "isScrollToTopButton": true,
         "isRtl": false
       },
       "additionalSetColors": [
@@ -1111,8 +1111,8 @@
             },
             "video": {
               "active": true,
-              "src": "https://www.youtube.com/watch?v=6EJYUyOWN18",
-              "aspectratio": "16:9",
+              "src": "https://youtu.be/rL143mYNHOs",
+              "aspectratio": "4:3",
               "autoplay": "on",
               "loop": false
             },
