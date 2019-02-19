@@ -1,13 +1,13 @@
 {
   "settings": {
-    "name": "Caddcentre-clone",
+    "name": "Caddcentre-clone-clone",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise3",
       "styling": {
         "primaryColor": "#ec1a3b",
-        "secondaryColor": "#ec1a3b",
+        "secondaryColor": "#2969b0",
         "successColor": "#90a878",
         "infoColor": "#7e9b9f",
         "warningColor": "#f3c649",
@@ -33,7 +33,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.3",
     "siteFonts": [],
-    "uniqCompNum": 50,
+    "uniqCompNum": 51,
     "versionPublish": "4.9.3",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/logo-rgb-03-01-128x38.png",
@@ -145,14 +145,14 @@
           "_params": {
             "showTitle": true,
             "showText": true,
+            "showButtons": false,
             "inverse": false,
             "showArrow": true,
-            "showIcons": false,
             "formBorder": false,
-            "formColor": "#ffffff",
+            "formColor": "#fafafa",
             "formStyle": "dark",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/bg-03-2000x1453.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/shutterstock-122600434-2000x1335.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#2e2e2e",
@@ -161,37 +161,13 @@
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#040918",
-            "overlayOpacity": "0.9"
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.8"
           },
-          "title1": "Bring your product design ideas and your career dreams to life!",
-          "title2": "AutoCAD for \n<div>Mechanical Engineers&nbsp;</div>",
-          "title3": "",
-          "text1": "",
-          "text2": "",
-          "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-secondary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ENQUIRE NOW</a>",
-          "media1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "layers",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#e6e6e6",
-              "family": "et-line"
-            }
-          },
-          "media2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "expand",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#e6e6e6",
-              "family": "et-line"
-            }
-          },
+          "title": "BRING YOUR PRODUCT DESIGN IDEAS AND YOUR CAREER DREAMS TO LIFE!",
+          "text": "AutoCAD for\n<br>Mechanical Engineers&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">MAKE AN ENQUIRY</a>",
           "form": {
             "action": "fastwork@ideascape.in",
             "alerts": {
@@ -224,26 +200,15 @@
           "_tags": [
             "Extension"
           ],
-          "_name": "extHeader4",
-          "_anchor": "extHeader4-16",
+          "_name": "extHeader1",
+          "_anchor": "extHeader1-1e",
           "_styles": {
-            ".intro-box h4": {
-              "color": "#ec1a3b",
-              "font-size": "30px"
-            },
-            ".intro-box h4 DIV": {
+            "P": {
+              "font-size": "46px",
+              "text-align": "right",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
               "color": "#ec1a3b"
-            },
-            "SPAN": {
-              "color": "#ec1a3b"
-            },
-            "H2": {
-              "color": "#ffffff"
-            },
-            ".btn": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-size": "14px"
             }
           }
         },
@@ -1446,7 +1411,12 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customCSS": ".form-control-label {\n  color: #c1c1c1;\n}\n.mbr-section-title {\n  color: #ffffff;\n}\n",
-          "_customTemplate": true
+          "_customTemplate": true,
+          "_styles": {
+            ".form-control-label": {
+              "color": "#c1c1c1"
+            }
+          }
         },
         {
           "_params": {
