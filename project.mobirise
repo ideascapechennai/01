@@ -7,11 +7,11 @@
       "title": "Mobirise3",
       "styling": {
         "primaryColor": "#ec1a3b",
-        "secondaryColor": "#bfcecb",
+        "secondaryColor": "#ec1a3b",
         "successColor": "#90a878",
         "infoColor": "#7e9b9f",
         "warningColor": "#f3c649",
-        "dangerColor": "#f28281",
+        "dangerColor": "#cccccc",
         "titleFont": "Montserrat",
         "subtitleFont": "Open Sans",
         "textFont": "Open Sans",
@@ -21,16 +21,19 @@
         "isRtl": false
       },
       "additionalSetColors": [
+        "#bfcecb",
         "#ec1a3b",
         "#5b5b5b",
         "#232323",
-        "#e9e9e9"
+        "#e9e9e9",
+        "#282828",
+        "#040918"
       ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.3",
     "siteFonts": [],
-    "uniqCompNum": 46,
+    "uniqCompNum": 50,
     "versionPublish": "4.9.3",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/logo-rgb-03-01-128x38.png",
@@ -58,13 +61,13 @@
             "sticky": true,
             "collapsed": true,
             "transparent": false,
-            "bgColor": "#282828",
-            "fontSize": "0.8",
+            "bgColor": "#ffffff",
+            "fontSize": "0.85",
             "fontName": {},
-            "fontColor": "#ffffff",
+            "fontColor": "#28324e",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">ABOUT CADD</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">ADVANTAGES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">COURSES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">FEATURES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">APPY NOW</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-y\">COURSES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#extTestimonials1-k\">TESTIMONIALS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-h\">APPLY NOW</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -76,34 +79,34 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#28324e"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "background-color": "#28324e"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#28324e"
             },
             ".link": {
-              "font-size": "0.8rem"
+              "font-size": "0.85rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.866rem"
+              "font-size": "0.921rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
+              "background": "#e6e6e6"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
+              "background": "#f7f7f7!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
+              "background": "#ffffff"
             },
             ".bg-color.transparent .link": {
-              "color": "#ffffff",
+              "color": "#28324e",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -122,10 +125,10 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-rgb-03-1-428x128.png",
+              "src": "@PROJECT_PATH@/assets/images/v5-1-444x111.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "",
               "title": ""
             },
             "iconFont": {
@@ -142,11 +145,14 @@
           "_params": {
             "showTitle": true,
             "showText": true,
-            "showButtons": false,
             "inverse": false,
             "showArrow": true,
+            "showIcons": false,
+            "formBorder": false,
+            "formColor": "#ffffff",
+            "formStyle": "dark",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/shutterstock-122600434-2000x1335.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/bg-03-2000x1453.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#2e2e2e",
@@ -155,13 +161,37 @@
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#000",
-            "overlayOpacity": "0.7"
+            "overlayColor": "#040918",
+            "overlayOpacity": "0.9"
           },
-          "title": "<span style=\"font-weight: normal;\">Bring your product design ideas and your career dreams to life!</span>",
-          "text": "AutoCAD for\n<br>Mechanical Engineers&nbsp;",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"https://mobirise.com\">SUBSCRIBE NOW</a>",
-          "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">GET STARTED</a>",
+          "title1": "Bring your product design ideas and your career dreams to life!",
+          "title2": "AutoCAD for \n<div>Mechanical Engineers&nbsp;</div>",
+          "title3": "",
+          "text1": "",
+          "text2": "",
+          "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-secondary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ENQUIRE NOW</a>",
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "layers",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#e6e6e6",
+              "family": "et-line"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "expand",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#e6e6e6",
+              "family": "et-line"
+            }
+          },
           "form": {
             "action": "fastwork@ideascape.in",
             "alerts": {
@@ -194,11 +224,26 @@
           "_tags": [
             "Extension"
           ],
-          "_name": "extHeader10",
-          "_anchor": "extHeader10-2",
+          "_name": "extHeader4",
+          "_anchor": "extHeader4-16",
           "_styles": {
-            "P": {
-              "font-size": "32px"
+            ".intro-box h4": {
+              "color": "#ec1a3b",
+              "font-size": "30px"
+            },
+            ".intro-box h4 DIV": {
+              "color": "#ec1a3b"
+            },
+            "SPAN": {
+              "color": "#ec1a3b"
+            },
+            "H2": {
+              "color": "#ffffff"
+            },
+            ".btn": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-size": "14px"
             }
           }
         },
@@ -250,7 +295,7 @@
           },
           "title": "Bring design ideas to life",
           "text": "<span style=\"font-style: normal;\">AutoCAD software helps mechanical engineers excel in their jobs by helping them create preliminary designs and spot flaws before production, saving time and resources. It can provide a graphic simulation of the machine prototype and show it in action. This will enable engineers to make the necessary tweaks before getting into production. Mechanical engineers can also simulate various environments and pressure points on a prototype to test how the product will function in high-stress conditions.\n<br>\n<br>Stay competitive. Get ahead in your Mech Engineering career with AutoCAD skills. &nbsp;</span><br>",
-          "buttons": " <a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">APPLY NOW</a> ",
+          "buttons": " <a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"index.html#form1-h\">APPLY NOW</a> ",
           "bgTextP": "ANIMATED TEXT BACKGROUND",
           "alias": "mobirise3-blocks/components",
           "_tags": [
@@ -268,7 +313,8 @@
               "font-size": "18px"
             },
             "H3": {
-              "color": "#28324e"
+              "color": "#28324e",
+              "font-size": "46px"
             }
           }
         },
@@ -278,16 +324,17 @@
               "text-align": "center"
             },
             ".mbr-section-title": {
-              "color": "#28324e"
+              "color": "#28324e",
+              "font-size": "46px"
             }
           },
           "_params": {
             "showMeta": true,
-            "paddingTop": "3",
+            "paddingTop": "2",
             "paddingBottom": "2",
             "bgColor": "#efefef"
           },
-          "title": "Mechanical CADD Programs",
+          "title": "<span style=\"font-weight: normal;\">Mechanical CADD Programs</span>",
           "meta": "",
           "_tags": [
             "Theme"
@@ -393,9 +440,9 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">APPLY NOW</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">APPLY NOW</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">APPLY NOW</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"index.html#form1-h\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">APPLY NOW</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"index.html#form1-h\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">APPLY NOW</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"index.html#form1-h\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">APPLY NOW</a>",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
@@ -519,8 +566,8 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">APPLY NOW</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">APPLY NOW</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"index.html#form1-h\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">APPLY NOW</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"index.html#form1-h\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">APPLY NOW</a>",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
@@ -549,6 +596,45 @@
         },
         {
           "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "color": "#28324e",
+              "font-size": "46px"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "2",
+            "paddingBottom": 1,
+            "bgColor": "#efefef"
+          },
+          "title": "<span style=\"font-weight: normal;\">Individual Programs</span>",
+          "meta": "",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1a"
+        },
+        {
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "3",
+            "bgColor": "#efefef"
+          },
+          "text1": "<p>3D Printing\n</p><p>3ds Max\n</p><p>5D BIM using Navisworks\n</p><p>ACADD V2020\n</p><p>ANSYS Fluent\n</p><p>ANSYS Workbench\n</p><p>AutoCAD Mechanical\n</p><p>AutoCAD 3D\n</p><p>AutoCAD for Architects</p><p>\n</p><p>AutoCAD Civil 3D\r</p><p>AutoCAD Electrical\r</p>",
+          "text2": "<p><span style=\"font-size: 1.07rem;\">AutoCAD for Electronics Engineer</span><br></p><p>Autodesk Inventor\n</p><p>CATIA\n</p><p>CATIA Kinematics\n</p><p>Geometric Dimensioning &amp; Tolerancing\n</p><p>HVAC\n</p><p>MicroStation</p><p>\n</p><p>MX ROAD\n</p><p>NX Nastran\n</p><p>Non-Destructive Testing (QA/QC)</p>",
+          "text3": "<p><span style=\"font-size: 1.07rem;\">NX CAD</span><br></p><p>Prosteel\n</p><p>Reverse Engineering\n</p><p>Revit Architecture\n</p><p>Revit MEP\n</p><p>SketchUp\n</p><p>SolidWorks\n</p><p>SolidWorks Motion\n</p><p>STAAD.Pro</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content7",
+          "_anchor": "content7-18"
+        },
+        {
+          "_styles": {
             ".feature-title, .description": {
               "color": "#232323"
             },
@@ -556,7 +642,8 @@
               "color": "#8c8c8c"
             },
             ".mbr-section-title": {
-              "color": "#28324e"
+              "color": "#28324e",
+              "font-size": "46px"
             }
           },
           "_params": {
@@ -591,8 +678,8 @@
             "iconFont": {
               "class": "mbr-iconfont-features6",
               "linkInNewWindow": false,
-              "name": "computer",
-              "family": "icon54-v4",
+              "name": "book-open",
+              "family": "et-line",
               "active": true,
               "size": 0,
               "color": "#ec1a3b"
@@ -602,7 +689,7 @@
             "iconFont": {
               "class": "mbr-iconfont-features6",
               "linkInNewWindow": false,
-              "name": "bookmark",
+              "name": "setting",
               "family": "MobiriseIcons",
               "active": true,
               "size": 0,
@@ -623,7 +710,7 @@
             "iconFont": {
               "class": "mbr-iconfont-features6",
               "linkInNewWindow": false,
-              "name": "search-job",
+              "name": "contact-book2",
               "family": "icon54",
               "active": true,
               "size": 0,
@@ -634,8 +721,8 @@
             "iconFont": {
               "class": "mbr-iconfont-features6",
               "linkInNewWindow": false,
-              "name": "dj",
-              "family": "iconsMind",
+              "name": "graduation-hat",
+              "family": "icon54-v3",
               "active": true,
               "size": 0,
               "color": "#ec1a3b"
@@ -651,23 +738,23 @@
               "family": "et-line"
             }
           },
-          "title": "Our Features",
-          "subtitle": "This theme is based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework.",
-          "feature_title1": "<span style=\"font-weight: normal;\">Advanced Lab Facility</span>",
-          "feature_subtitle1": "Creative and intelligent solutions",
-          "feature_text1": "Donec felis leo, placerat et porttitor, fermentum ut nunc. Integer consequat pretium tempor. Fusce aliquam libero quis dui dictum.",
-          "feature_title2": "<span style=\"font-weight: normal;\">Global Certifications</span>",
-          "feature_subtitle2": "High resolution screens friendly",
-          "feature_text2": "Donec felis leo, placerat et porttitor, fermentum ut nunc. Integer consequat pretium tempor. Fusce aliquam libero quis dui dictum.",
+          "title": "<span style=\"font-weight: normal;\">CADD Centre Advantage</span>",
+          "subtitle": "With over 3 decades in the business, CADD Centre understands your world and your needs like no one else does.",
+          "feature_title1": "<span style=\"font-weight: normal;\">Reference Guides</span>",
+          "feature_subtitle1": "Meeting the unique needs of students",
+          "feature_text1": "CADD Centre reference guides are of world class standards and cater to the unique needs to students of all levels",
+          "feature_title2": "<span style=\"font-weight: normal;\">Loyalty Programs</span>",
+          "feature_subtitle2": "Regular industry-institution interaction",
+          "feature_text2": "To keep the industry-institution interaction strong, CADD Centre holds seminars and interactive sessions to expose students to real world conditions.",
           "feature_title3": "Translation ready",
           "feature_subtitle3": "Find a common language with anyone",
           "feature_text3": "Donec felis leo, placerat et porttitor, fermentum ut nunc. Integer consequat pretium tempor. Fusce aliquam libero quis dui dictum.",
-          "feature_title4": "<span style=\"font-weight: normal;\">Job Opportunities&nbsp;</span>",
-          "feature_subtitle4": "Suits well all devices and screen sizes",
-          "feature_text4": "Donec felis leo, placerat et porttitor, fermentum ut nunc. Integer consequat pretium tempor. Fusce aliquam libero quis dui dictum.",
-          "feature_title5": "<span style=\"font-weight: normal;\">Technical Support</span>",
-          "feature_subtitle5": "Elaborated code and trendy design",
-          "feature_text5": "Donec felis leo, placerat et porttitor, fermentum ut nunc. Integer consequat pretium tempor. Fusce aliquam libero quis dui dictum.",
+          "feature_title4": "<span style=\"font-weight: normal;\">Curriculum Development</span>",
+          "feature_subtitle4": "Regular updates to meet industry requirements",
+          "feature_text4": "CADD Centre has a dedicated curriculum and product development team who develop and upgrade regularly to keep pace with industry requirements.",
+          "feature_title5": "<span style=\"font-weight: normal;\">Scholarship Programs</span>",
+          "feature_subtitle5": "Pan India scholarship program",
+          "feature_text5": "CADD Quest is an annual scholarship exam conducted by CADD Centre which recognise and reward scholarships to meritorious students",
           "feature_title6": "Awesome parallax",
           "feature_subtitle6": "Enjoy smooth bg sliding on scroll",
           "feature_text6": "Donec felis leo, placerat et porttitor, fermentum ut nunc. Integer consequat pretium tempor. Fusce aliquam libero quis dui dictum.",
@@ -699,15 +786,15 @@
             "showIcons": true,
             "iconsColor": "#333333"
           },
-          "title": "Student Benefits",
+          "title": "<span style=\"font-weight: normal;\">Student Benefits</span>",
           "title1": "Internationally recognized certificates.",
-          "title2": "Holograms&nbsp;",
-          "title3": "CADD Centre's privilege card&nbsp;",
-          "title4": "Plan Your Career",
-          "text1": "Internationally recognized certificates. All our certificates carry a special hologram with logo, confirming the authenticity of the participant.",
-          "text2": "The number of holograms on the certificate is also an indicator of proficiency - more the holograms, higher the proficiency!&nbsp;<br>",
-          "text3": "CADD Centre's privilege card makes it even easier for you to avail our further services and benefit to the best. It is an added advantage provided exclusively for you by CADD Centre. ",
-          "text4": "Plan Your Career - A portal to answer your questions and can guide you to successful career. ",
+          "title2": "Industry specific CAD skills",
+          "title3": "Placement Assistance",
+          "title4": "Qualified tutors",
+          "text1": "CADD Centre certifications are globally valid and accepted",
+          "text2": "CADD Centre empowers you with specific skills that employers seek<br>",
+          "text3": "CADD Centre offers placement assistance to all students who complete their courses ",
+          "text4": "Our experienced and highly qualified tutors provide an excellent learning environment ",
           "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary btn-block\">CONTACT US</a>",
           "media": {
             "image": {
@@ -721,42 +808,46 @@
           },
           "media1": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont-extFeatures2",
-              "name": "layers",
+              "linkInNewWindow": false,
+              "name": "bookmark",
+              "family": "MobiriseIcons",
+              "active": true,
               "size": 0,
-              "color": "#666666",
-              "family": "et-line"
+              "color": "#ec1a3b"
             }
           },
           "media2": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont-features6",
-              "name": "upload",
+              "linkInNewWindow": false,
+              "name": "cad-2",
+              "family": "icon54-v4",
+              "active": true,
               "size": 0,
-              "color": "#666666",
-              "family": "et-line"
+              "color": "#ec1a3b"
             }
           },
           "media3": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont-features6",
-              "name": "linegraph",
+              "linkInNewWindow": false,
+              "name": "search-job",
+              "family": "icon54",
+              "active": true,
               "size": 0,
-              "color": "#666666",
-              "family": "et-line"
+              "color": "#ec1a3b"
             }
           },
           "media4": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont-features6",
-              "name": "heart",
+              "linkInNewWindow": false,
+              "name": "teacher",
+              "family": "iconsMind",
+              "active": true,
               "size": 0,
-              "color": "#666666",
-              "family": "et-line"
+              "color": "#ec1a3b"
             }
           },
           "alias": "mobirise3-blocks/components",
@@ -767,7 +858,8 @@
           "_anchor": "extFeatures2-g",
           "_styles": {
             "H2": {
-              "color": "#28324e"
+              "color": "#28324e",
+              "font-size": "46px"
             }
           }
         },
@@ -779,8 +871,8 @@
             "showName": true,
             "showBio": true,
             "autoplay": true,
-            "timeout": "6",
-            "paddingTop": "1",
+            "timeout": "3",
+            "paddingTop": "0",
             "paddingBottom": "0",
             "showBullets": true,
             "bgImageRadio": false,
@@ -848,7 +940,7 @@
               }
             ]
           },
-          "title": "Students Experience",
+          "title": "<span style=\"font-weight: normal;\">Students Experience</span>",
           "subtitle": "<span style=\"font-style: normal;\">Shape your future web project with sharp design and refine coded functions.</span>",
           "alias": "mobirise3-blocks/components",
           "_tags": [
@@ -1285,7 +1377,7 @@
               }
             ]
           },
-          "title": "Educational Partners",
+          "title": "<span style=\"font-weight: normal;\">Educational Partners</span>",
           "subtitle": "\"Our clients\" carousel with adjustable number of visible clients.",
           "alias": "mobirise3-blocks/components",
           "_tags": [
@@ -1315,7 +1407,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "Make an enquiry",
+          "title": "<span style=\"font-weight: normal;\">Make an enquiry</span>",
           "subtitle": "Shape your future web project with sharp design and refine coded functions.",
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
           "form": {
@@ -1350,14 +1442,11 @@
           ],
           "_name": "form1",
           "_anchor": "form1-h",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#c1c1c1"
-            },
-            ".mbr-section-title": {
-              "color": "#ffffff"
-            }
-          }
+          "_customHTML": "<section class=\"mbr-section form1 mbr-after-navbar\" data-rv-view=\"209\" style=\"background-color: rgb(40, 50, 78); padding-top: 80px; padding-bottom: 120px;\">\n    \n    <div class=\"mbr-section mbr-section__container mbr-section__container--middle\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 text-xs-center\">\n                    <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"132\"><span style=\"font-weight: normal;\">Make an enquiry</span></h3>\n                    <small class=\"mbr-section-subtitle mbr-editable-content\" code-editable-id=\"133\">Shape your future web project with sharp design and refine coded functions.</small>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"mbr-section mbr-section-nopadding\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-lg-10 col-lg-offset-1\" data-form-type=\"formoid\">\n\n\n                    <div data-form-alert=\"true\">\n                        <div hidden=\"\" data-form-alert-success=\"true\" class=\"alert alert-form alert-success text-xs-center\">Thanks for filling out form!</div>\n                    </div>\n\n\n                    <form action=\"https://mobirise.com/\" method=\"post\" data-form-title=\"Make an enquiry\">\n\n                        <input type=\"hidden\" value=\"sV92cOgZjwgC9zvHJVHgmKN0GPVBp84vJQjElwylPf3+AogLHcq6OgqlG4URROZ/7m7rRRAER24Rvw+N4biSC4HsLlaadeB8t+vBbiD3ehuQB7cbz2g9kJE7QBAm2ShP\" data-form-email=\"true\">\n\n                        <div class=\"row row-sm-offset\">\n\n                            <div class=\"col-xs-12 col-md-4\">\n                                <div class=\"form-group\">\n                                    <label class=\"form-control-label\" for=\"form1-h-name\">Name<span class=\"form-asterisk\">*</span></label>\n                                    <input type=\"text\" class=\"form-control\" name=\"name\" required=\"\" data-form-field=\"Name\" id=\"form1-h-name\">\n                                </div>\n                            </div>\n\n                            <div class=\"col-xs-12 col-md-4\">\n                                <div class=\"form-group\">\n                                    <label class=\"form-control-label\" for=\"form1-h-email\">Email<span class=\"form-asterisk\">*</span></label>\n                                    <input type=\"email\" class=\"form-control\" name=\"email\" required=\"\" data-form-field=\"Email\" id=\"form1-h-email\">\n                                </div>\n                            </div>\n\n                            <div class=\"col-xs-12 col-md-4\">\n                                <div class=\"form-group\">\n                                    <label class=\"form-control-label\" for=\"form1-h-phone\">Phone</label>\n                                    <input type=\"tel\" class=\"form-control\" name=\"phone\" data-form-field=\"Phone\" id=\"form1-h-phone\">\n                                </div>\n                            </div>\n                            \n                             <div class=\"col-xs-12 col-md-4\">\n                                <div class=\"form-group\">\n                                \n                                    <label class=\"form-control-label\" for=\"form1-h-message\">Select course</label>\n                                    <select name=\"select\">\n                                      <option value=\"American\">Master Diploma in Product Design and Analysis</option>\n                                      <option value=\"Andean\">Professional in Product Design and Analysis</option>\n                                      <option value=\"Chilean\">Professional in Product Design</option>\n                                      <option value=\"Greater\">Diploma in Product Design</option>\n                                      <option value=\"James's\">Diploma in Product Design and Analysis</option>\n                                      \n                                    </select>\n                                </div>\n                            </div>\n\n                        </div>\n\n                        <div class=\"form-group\"></div>\n                        \n\n                        <div><button type=\"submit\" class=\"btn btn-primary mbr-editable-button\" code-editable-id=\"134\">APPLY NOW</button></div>\n\n                    \n</form></div></div></div></div></section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": ".form-control-label {\n  color: #c1c1c1;\n}\n.mbr-section-title {\n  color: #ffffff;\n}\n",
+          "_customTemplate": true
         },
         {
           "_params": {
@@ -1374,7 +1463,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/logo-rgb-03-1-128x38.png",
+              "src": "@PROJECT_PATH@/assets/images/v5-1-128x32.png",
               "width": 128,
               "active": true,
               "link": "",
